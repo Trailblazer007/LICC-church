@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image_holder {
+    display: flex;
+    height: 702px;
+    background-image: url("/images/emmem.png");
+    background-color: #302f30;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.image_text_container {
+    font-weight: 700;
+    width: 100%;
+    position: absolute;
+    top: 357px;
+    box-shadow: 0px 4px 4px 0px #00000010, 0px -4px 4px 0px #00000010;
+}
+
+.image_text h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #FFA800;
+    margin-bottom: 12px;
+}
+
+.image_text p {
+    font-size: 30px;
+    opacity: 0.65;
+    margin: 0 auto;
+    width: 1105px;
+    text-align: center;
+    color: #FFF;
+}
+
+.yellow {
+    color: #FFA800;
+}
+
+#core-values {
+    height: 702px;
+    background-image: url("/images/bg_image.png");
+    background-color: #302f30;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.members_testimonies {
+    position: relative;
+    margin-top: 96px;
+    padding: 72px 0 64px 72px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    overflow: hidden;
+}
+
+/* For guidance and most likely not usage */
+/* .members_testimonies_header {
+    font-weight: 700;
+    font-size: 50px;
+    color:#02006C;
+    position: absolute;
+    top: 300px;
+    left: 60px;
+    width: 580px;
+} */
+
+.quotes {
+    background-image: url("/assets/bi_quote.png");
+    height: 264px;
+    background-position: 236px 64px;
+    background-repeat: no-repeat;
+    
+}
