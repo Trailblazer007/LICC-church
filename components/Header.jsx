@@ -5,9 +5,7 @@ import Navbar from './Navbar'
 
 const Header = () => {
   return (
-    <div className='flex justify-between px-14 my-4  '>
-      {/* w-10 md:w-16 lg:w-32 xl:w-44 2xl:w-52 */}
-        {/* Logo Image */}
+    <div className='flex justify-between items-center px-14 mb-4 text-blue font-bold'>
         <div>
             <Image
             src="/assets/LICC_logo_1.png"
@@ -21,9 +19,9 @@ const Header = () => {
         <Navbar/>
 
         {/* Donate button */}
-        <div className="flex justify-center align-middle">
+        <div className="flex justify-center items-center">
             <p className='text-blue 
-                        font-bold bg-orange p-4 rounded-md'>Donate
+                        font-bold bg-orange p-3 px-8 rounded-xl hover:cursor-pointer'>Donate
             </p>
             
         </div>

@@ -1,14 +1,15 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <div>
-        <ul className="flex space-x-6 pt-3" >
-            <li><a className="" href="#">Home</a></li>
-            <li><a className="" href="./about-us.html">About Us</a></li>
-            <li><a className="" href="./contact.html">Contact</a></li>
-            <li><a className="" href="./branch-network.html">Branch Network</a></li>
-        </ul>
+    <div className='navbar'>
+      <ul className="flex space-x-6 pt-3" >
+        <li><Link className="" href="#">Home</Link></li>
+        <li><Link className="" href="./about-us.html">About Us</Link></li>
+        <li><Link className="" href="./contact.html">Contact</Link></li>
+        <li><Link className="" href="./branch-network.html">Branch Network</Link></li>
+      </ul>
     </div>
   )
 }

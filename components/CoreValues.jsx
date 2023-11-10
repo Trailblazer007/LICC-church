@@ -1,90 +1,58 @@
 import React from 'react'
 import Image from 'next/image'
+import CoreValuesCard from './CoreValuesCard'
+
+const array = [
+    {
+        width: "376",
+        height:"222",
+        src: "/images/img-1.jpg",
+        alt:"Love image",
+        title: "Love"
+    },
+    {
+        width: "376",
+        height:"222",
+        src: "/images/img-1.jpg",
+        alt:"Love image",
+        title: "Excellence"
+    },
+    {
+        width: "376",
+        height:"222",
+        src: "/images/img-1.jpg",
+        alt:"Love image",
+        title: "Accountability"
+    },{
+        width: "376",
+        height:"222",
+        src: "/images/img-1.jpg",
+        alt:"Love image",
+        title: "Discipleship"
+    }
+]
 
 const CoreValues = () => {
   return (
     <div 
         id="core-values"
-        className='py-10 p-12 mx-auto flex gap-20'>
-        <div>
-            <h2>Core Values</h2>
+        className='py-10 p-12 justify-center flex gap-20 text-blue'>
+        <div className="w-80 my-auto">
+            <h2 className="text-4xl font-bold mb-8">Core Values</h2>
 
-            <p>Our core values are embedded in the acronym called LEAD</p>
+            <p className="text-lg">Our core values are embedded in the acronym called LEAD</p>
         </div>
 
-        <div className="grid gap-4 grid-cols-2 grid-rows-2">
-            {/* Card 1 */}
-            <div className='flex flex-col'>
-                {/* Card image */}
-                <div className=''>
-                    <Image 
-                        width={376}
-                        height={222}
-                        
-                        src="/images/img-1.jpg"
-                        alt="Love image"
-                    />
-                </div>
-                {/* Card text */}
-                <div>
-                    <h3 className='text-center bg-white p-2'>Love</h3>
-                </div>
-            </div>
-
-            {/* Card 2 */}
-            <div className='flex flex-col'>
-                {/* Card image */}
-                <div className=''>
-                    <Image 
-                        width={376}
-                        height={222}
-                        
-                        src="/images/img-2.jpg"
-                        alt="Love image"
-                    />
-                </div>
-                {/* Card text */}
-                <div>
-                    <h3 className='text-center bg-white p-2'>Love</h3>
-                </div>
-            </div>
+        <div className="grid gap-10 grid-cols-2 grid-rows-2">
 
 
-            {/* Card 3 */}
-            <div className='flex flex-col'>
-                {/* Card image */}
-                <div className=''>
-                    <Image 
-                        width={376}
-                        height={222}
-                        
-                        src="/images/img-4.jpg"
-                        alt="Love image"
+            {
+                array.map((card)=> {
+                    return <CoreValuesCard
+                        card={card}
                     />
-                </div>
-                {/* Card text */}
-                <div>
-                    <h3 className='text-center bg-white p-2'>Love</h3>
-                </div>
-            </div>
-
-            {/* Card 4 */}
-            <div className='flex flex-col'>
-                {/* Card image */}
-                <div className=''>
-                    <Image 
-                        width={376}
-                        height={222}
-                        
-                        src="/images/img-4.jpg"
-                        alt="Love image"
-                    />
-                </div>
-                {/* Card text */}
-                <div>
-                    <h3 className='text-center bg-white p-2'>Love</h3>
-                </div>
-            </div>
+                })
+            }
 
         </div>
     </div>

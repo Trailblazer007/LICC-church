@@ -7,6 +7,8 @@ import MissionVission from "@/components/MissionVission";
 import Testimonies from "@/components/Testimonies";
 import Events from "@/components/Events";
 
+import Footer from "@/components/Footer";
+
 export default function Home() {
   return (
     <>
@@ -35,7 +37,9 @@ export default function Home() {
 
       <Testimonies />
 
-      {/* <Events /> */}
+      <Events />
+
+      <Footer />
     </>
   );
 }

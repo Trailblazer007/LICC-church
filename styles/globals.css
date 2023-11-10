@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.navbar ul li {
+    border-bottom: 6px solid transparent;
+}
+
+.navbar ul li:hover {
+    border-bottom: 6px solid #FFA800;
+}
+
 .image_holder {
     display: flex;
     height: 702px;
@@ -32,13 +40,24 @@
     font-size: 30px;
     opacity: 0.65;
     margin: 0 auto;
-    width: 1105px;
-    text-align: center;
+    width: 820px;
+    text-align: left;
     color: #FFF;
 }
 
 .yellow {
     color: #FFA800;
+}
+
+.church_founder {
+    object-fit: cover; ;
+    rotate: 15deg;
+}
+
+.church_logo_holder {
+    height: 381.91px;
+    width: 548.65px;
+    overflow: hidden;
 }
 
 #core-values {
@@ -53,10 +72,9 @@
 
 .members_testimonies {
     position: relative;
-    margin-top: 96px;
     padding: 72px 0 64px 72px;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 2fr;
     overflow: hidden;
 }
 
@@ -73,8 +91,60 @@
 
 .quotes {
     background-image: url("/assets/bi_quote.png");
-    height: 264px;
-    background-position: 236px 64px;
+    /* height: 264px; */
+    background-position: 430px -30px;
     background-repeat: no-repeat;
     
+}
+
+.reach-out {
+    height: 702px;
+    background-image: url("/images/bg_image.png");
+    background-color: #302f30;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.footer {
+    background-image: url(/images/Frame_177.png);
+
+}
+
+.footer h4 {
+    font-weight: bold;
+    font-size:larger;
+    margin-bottom: 12px;
+}
+
+.footer li {
+    color: #02006CA3;
+
+}
+
+.email {
+    overflow: hidden;
+    font-size: 20px;
+    border: 3px solid #02006CA3;
+    border-radius: 10px;
+    display: flex;
+    outline: none;
+}
+
+/* ::placeholder {
+    color: #02006C73;
+} */
+
+#email-btn {
+    font-size: larger;
+    border: none;
+    width: 206px;
+    outline: none;
+    background-color: #02006C;
+    color: #fff;
+}
+
+.reaching_out ul a li{
+    margin-bottom: 16px;
 }
