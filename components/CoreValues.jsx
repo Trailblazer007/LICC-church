@@ -48,6 +48,7 @@ const CoreValues = () => {
                 array.map((card)=> {
                     return <CoreValuesCard
                         card={card}
+                        key=''
                     />
                 })
             }

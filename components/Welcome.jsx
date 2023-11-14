@@ -10,7 +10,7 @@ const Welcome = () => {
                 width={536}
                 height={507}
                 src="/images/pastor_and_wife.png" 
-                alt="founders' image"
+                alt="founders image"
             />
 
         </div>
@@ -20,9 +20,9 @@ const Welcome = () => {
                 Welcome to Church
             </h1>
             <p className='text-lg'>
-                "Welcome to the digital embrace of <span class="yellow">Living Impact Christian Centre!</span> 
-                Here, we're delighted to have you. As you explore, our heartfelt hope is that your journey
-                with God finds new inspiration. Your presence enriches us."
+            &quot;Welcome to the digital embrace of <span class="yellow">Living Impact Christian Centre!</span> 
+                Here, we&apos;re delighted to have you. As you explore, our heartfelt hope is that your journey
+                with God finds new inspiration. Your presence enriches us.&quot;
             </p>
         </div>
     </div>

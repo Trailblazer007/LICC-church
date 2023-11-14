@@ -50,7 +50,7 @@ const Testimonies = () => {
 
                     {/* Card bottom */}
                     <div className="card_bottom">
-                        <p>"I am incredibly grateful to have purchased a Range Rover 2023, and I want to express my heartfelt thanks to God...</p>
+                        <p>&quot;I am incredibly grateful to have purchased a Range Rover 2023, and I want to express my heartfelt thanks to God...&quot;</p>
                     </div>
                 </div>
 
@@ -82,7 +82,7 @@ const Testimonies = () => {
 
                     {/* Card bottom */}
                     <div className="card_bottom">
-                        <p>"I am incredibly grateful to have purchased a Range Rover 2023, and I want to express my heartfelt thanks to God...</p>
+                        <p>&quot;I am incredibly grateful to have purchased a Range Rover 2023, and I want to express my heartfelt thanks to God...&quot;</p>
                     </div>
                 </div>
 
@@ -113,7 +113,7 @@ const Testimonies = () => {
 
                     {/* Card bottom */}
                     <div className="card_bottom">
-                        <p>"I am incredibly grateful to have purchased a Range Rover 2023, and I want to express my heartfelt thanks to God...</p>
+                        <p>&quot;I am incredibly grateful to have purchased a Range Rover 2023, and I want to express my heartfelt thanks to God...&quot;</p>
                     </div>
                 </div>
             </div>

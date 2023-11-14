@@ -40,7 +40,7 @@ const MissionVission = () => {
                 />
                 <div className='p-3 text-center '>
                     <h3 className='text-blue text-2xl mb-6'>Do you have a prayer request?</h3>
-                    <p className='text-sm text-orange '>Let's pray</p>
+                    <p className='text-sm text-orange '>Let&quot;s pray</p>
                 </div>
             </div>
 
