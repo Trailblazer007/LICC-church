@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { back, forward } from 'ionicons/icons';
 
 const Events = () => {
   return (
@@ -10,8 +11,12 @@ const Events = () => {
             </div>
 
             <div className="event_buttons">
-                <button type="button" className="previous button">&lt;</button>
-                <button type="button" className="next button">&gt;</button>
+                <button type="button" className="previous button">
+                    <ion-icon className="" icon={back} name="chevron-back-outline"></ion-icon>
+                </button>
+                <button type="button" className="next button">
+                    <ion-icon icon={forward} name="chevron-forward-outline"></ion-icon>
+                </button>
             </div>
         </div>
 

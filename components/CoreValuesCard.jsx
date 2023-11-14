@@ -17,7 +17,7 @@ const CoreValuesCard = ({card}) => {
                 </div>
                 {/* Card text */}
                 <div>
-                    <h3 className='text-center text-2xl bg-white p-1 rounded-b-2xl'>{card.title}</h3>
+                    <h3 className='text-center text-2xl bg-white p-2 rounded-b-2xl'>{card.title}</h3>
                 </div>
             </div>
   )

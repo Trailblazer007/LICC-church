@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { back, forward } from 'ionicons/icons';
 
 const Testimonies = () => {
   return (
@@ -11,10 +12,10 @@ const Testimonies = () => {
                     <h1 className="text-4xl font-bold ">Members testimonies</h1>
                     <div className="mt_buttons">
                     <button type="button" className="previous button">
-                        &lt;
+                        <ion-icon className="" icon={back} name="chevron-back-outline"></ion-icon>
                     </button>
                     <button type="button" className="next button">
-                        &gt;
+                        <ion-icon icon={forward} name="chevron-forward-outline"></ion-icon>
                     </button>
                     </div>
                 </div>
